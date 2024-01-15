@@ -15,7 +15,7 @@ const OrganizationIdPage = async () => {
         <Separator className="my-4" />
         <div className="px-2 md:px-4">
             <Suspense fallback={<BoardList.Skeleton />}>
-            <BoardList />
+              <BoardList />
             </Suspense>
         </div>
       {/* <Info isPro={isPro} />
